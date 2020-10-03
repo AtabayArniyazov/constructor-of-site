@@ -1,0 +1,27 @@
+{
+  "name": "constructor-of-site",
+  "version": "1.0.0",
+  "description": "javascript pure application",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4200 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtabayArniyazov/constructor-of-site.git"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Atabay <arniyazovatabay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtabayArniyazov/constructor-of-site/issues"
+  },
+  "homepage": "https://github.com/AtabayArniyazov/constructor-of-site#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
